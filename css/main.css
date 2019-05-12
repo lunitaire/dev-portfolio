@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
 }
+
 /* responsive design related */
 .container {
   display: flex;
@@ -40,7 +41,22 @@
   .first_feat, .second_feat, .third_feat{
     width: 33.333%;
   }
+}
 
+/* for images */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#logo{
+  height: 70px;
 }
 
 /* html tag selectors */
@@ -48,30 +64,36 @@ h1 {
   font-family: 'Rubik', sans-serif;
   color: #FE938C;
 }
+
 h2 {
   font-family: 'Roboto Mono', monospace;
   color: #4281A4;
 }
+
 h3 {
   font-family: 'Roboto Mono', monospace;
   color: #93B6C4;
   font-size: 20px;
 }
+
 h4 {
   font-family: 'Rubik', sans-serif;
   color: #4281A4;
   font-size: 18px;
   padding-top: 5px;
 }
+
 p{
   font-family: 'Roboto', sans-serif;
   color: #4281A4;
   font-size: 16px;
 }
+
 a{
   color:#FE938C;
   font-family: 'Roboto', sans-serif;
 }
+
 article a{
   display:block;
   background:
@@ -85,50 +107,43 @@ article a{
     text-decoration: none;
     transition: background-size .2s;
 }
+
 article a:hover{
   background-size: 3px 27px;
 }
+
 header{
   background-color: #4281A4;
 }
+
 main{
   background-color: #E6B89C;
 }
+
 article{
   text-align: center;
   cursor: pointer;
 }
+
 footer{
   background-color: #4281A4;
   text-align: center;
   font-family: 'Roboto', sans-serif;
 }
+
 /* classes attribute selectors */
-
-
-/* for images */
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
 .credit{
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
   color: #E6B89C;
 }
-#logo{
-  height: 70px;
-}
+
 /* ids attribute selectors */
 #header_left{
   width:50%;
   float: left;
 }
+
 #header_right{
   width:50%;
   float: right;
@@ -138,13 +153,15 @@ img {
 #first_feat{
   background-color: #FFDBA3;
 }
+
 #second_feat{
   background-color: #FFB993;
 }
+
 #third_feat{
   background-color: #FE938C;
 }
+
 #feat{
   background-color: #93B6C4;
 }
-
