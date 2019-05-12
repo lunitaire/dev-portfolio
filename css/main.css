@@ -1,0 +1,145 @@
+/* main.css for @lunitaire/dev-portfolio */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* responsive design related */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100%;
+  padding: 10px;
+}
+
+.main {
+  width: 100%;
+}
+
+@media screen and (min-width: 520px){
+  #first_feat, #second_feat{
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 780px){
+  #first_feat, #second_feat, #third_feat{
+    width: 33.333%;
+  }
+}
+
+@media screen and (min-width: 800px){
+  .container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .first_feat, .second_feat, .third_feat{
+    width: 33.333%;
+  }
+
+}
+
+/* html tag selectors */
+h1 {
+  font-family: 'Rubik', sans-serif;
+  color: #FE938C;
+}
+h2 {
+  font-family: 'Roboto Mono', monospace;
+  color: #4281A4;
+}
+h3 {
+  font-family: 'Roboto Mono', monospace;
+  color: #93B6C4;
+  font-size: 20px;
+}
+h4 {
+  font-family: 'Rubik', sans-serif;
+  color: #4281A4;
+  font-size: 18px;
+  padding-top: 5px;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+  color: #4281A4;
+  font-size: 16px;
+}
+article a{
+  display:block;
+  background:
+     linear-gradient(
+       to bottom, #93B6C4 0%,
+       #93B6C4 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 3px 3px;
+    text-decoration: none;
+    transition: background-size .2s;
+}
+article a:hover{
+  background-size: 3px 27px;
+}
+header{
+  background-color: #4281A4;
+}
+main{
+  background-color: #E6B89C;
+}
+article{
+  text-align: center;
+  cursor: pointer;
+}
+footer{
+  background-color: #4281A4;
+  text-align: center;
+}
+/* classes attribute selectors */
+
+
+/* for images */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.credit{
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  color: #E6B89C;
+}
+#logo{
+  height: 100px;
+}
+/* ids attribute selectors */
+#header_left{
+  width:50%;
+  float: left;
+}
+#header_right{
+  width:50%;
+  float: right;
+  text-align: right;
+}
+
+#first_feat{
+  background-color: #FFDBA3;
+}
+#second_feat{
+  background-color: #FFB993;
+}
+#third_feat{
+  background-color: #FE938C;
+}
+#feat{
+  background-color: #93B6C4;
+}
+
