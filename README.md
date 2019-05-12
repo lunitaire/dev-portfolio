@@ -20,4 +20,4 @@ This is the first stage of this project, which is designed to meet the submissio
 - utilized the Mostly Fluid responsive design pattern
 - color palettes can be seen [here](https://coolors.co/u/lunitaire)
 - free stock photos from [unsplash](https://unsplash.com/collections/4798876/hello-world)
-- referenced [css-tricks](https://css-tricks.com) for a couple of tricks including [this hover effect](https://css-tricks.com/having-fun-with-link-hover-effects/)
+- referenced [css-tricks](https://css-tricks.com) for tips and tricks including [this hover effect](https://css-tricks.com/having-fun-with-link-hover-effects/)
