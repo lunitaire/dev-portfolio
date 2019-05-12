@@ -21,13 +21,16 @@
 }
 
 @media screen and (min-width: 520px){
-  #first_feat, #second_feat{
+  #first_feat,
+  #second_feat{
     width: 50%;
   }
 }
 
 @media screen and (min-width: 780px){
-  #first_feat, #second_feat, #third_feat{
+  #first_feat,
+  #second_feat,
+  #third_feat{
     width: 33.333%;
   }
 }
