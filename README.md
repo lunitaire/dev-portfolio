@@ -1,6 +1,6 @@
 # @lunitaire/dev-portfolio
 
-Development Portfolio of Atrian Wagner
+Web Developer Portfolio of Atrian Wagner
 
 ## about project
 
